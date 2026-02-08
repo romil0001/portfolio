@@ -353,6 +353,37 @@ section {
   color: var(--muted);
 }
 
+.ai-lab {
+  background: #fff;
+}
+
+.signup {
+  background: var(--surface);
+}
+
+.info-list {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 0.6rem;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.signup-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 40px rgba(28, 47, 74, 0.08);
+  display: grid;
+  gap: 1rem;
+}
+
+.form-note {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
 .contact {
   background: var(--surface);
 }

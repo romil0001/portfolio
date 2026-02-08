@@ -28,8 +28,10 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Core Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#ai-lab">AI Lab</a></li>
             <li><a href="#leadership">Leadership</a></li>
             <li><a href="#societies">Societies</a></li>
+            <li><a href="#signup">Sign Up</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -255,6 +257,41 @@
         </div>
       </section>
 
+      <section class="ai-lab" id="ai-lab">
+        <div class="container">
+          <div class="section-heading">
+            <h2>AI &amp; autonomy lab</h2>
+            <p>Applied AI research, rapid prototyping, and validation workflows I use to deliver reliable systems.</p>
+          </div>
+          <div class="skills-grid">
+            <article>
+              <h3>Computer vision pipelines</h3>
+              <p>
+                Rapid dataset labeling, YOLO-based detection, and real-time inference validation with OpenCV + PyTorch.
+              </p>
+            </article>
+            <article>
+              <h3>Edge intelligence</h3>
+              <p>
+                ESP32 + Raspberry Pi deployments with sensor fusion, latency profiling, and power-aware optimization.
+              </p>
+            </article>
+            <article>
+              <h3>Digital twin workflows</h3>
+              <p>
+                MATLAB/Simulink + CAD-driven simulation to stress-test control logic before hardware integration.
+              </p>
+            </article>
+            <article>
+              <h3>AI safety checks</h3>
+              <p>
+                Failure-mode review, model drift monitoring, and precision-recall benchmarking to ensure reliable outputs.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="testimonials" id="leadership">
         <div class="container">
           <div class="section-heading">
@@ -313,6 +350,47 @@
         </div>
       </section>
 
+      <section class="signup" id="signup">
+        <div class="container split">
+          <div>
+            <h2>Stay connected</h2>
+            <p>
+              Receive project updates, technical breakdowns, and robotics insights. Sign up to get a direct update in your
+              inbox.
+            </p>
+            <ul class="info-list">
+              <li>Monthly engineering highlights and build logs.</li>
+              <li>New project releases and collaboration openings.</li>
+              <li>Invitations to demo days and research showcases.</li>
+            </ul>
+          </div>
+          <form class="signup-form">
+            <label>
+              Your name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Interests
+              <select name="interest" required>
+                <option value="" disabled selected>Select an interest</option>
+                <option>Robotics &amp; control</option>
+                <option>AI &amp; computer vision</option>
+                <option>Automation &amp; PLCs</option>
+                <option>IoT &amp; connected devices</option>
+              </select>
+            </label>
+            <p class="form-note">
+              Submissions open an email draft addressed to Romil so your signup lands directly in his inbox.
+            </p>
+            <button class="primary-button" type="submit">Sign up</button>
+          </form>
+        </div>
+      </section>
+
       <section class="contact" id="contact">
         <div class="container contact-grid">
           <div>
@@ -354,6 +432,9 @@
               Project details
               <textarea name="message" rows="4" placeholder="Timeline, scope, and goals."></textarea>
             </label>
+            <p class="form-note">
+              Sending this form opens an email draft to Romil with your details so it lands directly in his inbox.
+            </p>
             <button class="primary-button" type="submit">Send message</button>
           </form>
         </div>
